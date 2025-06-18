@@ -1,0 +1,5 @@
+api:
+  base_url: https://api.twelvedata.com
+  credit_min: 505
+fxaix_covergae:
+  file_location: security_master/config/FXIAX_20250618.csv

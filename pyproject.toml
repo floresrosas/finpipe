@@ -1,0 +1,20 @@
+[project]
+name = "finpipe"
+version = "0.1.0"
+description = "A personal project reviewing multiprocessing and concurrency in python byingesting financial time series datadata at scale"
+authors = [
+    {name = "Jasmine 💗",email = "jasmine.tw1127@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.4,<3.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)",
+    "pandas (>=2.3.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
